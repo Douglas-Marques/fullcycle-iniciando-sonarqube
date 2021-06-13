@@ -17,3 +17,19 @@ func TestSub(t *testing.T) {
 		t.Errorf("Resultado da sub é inválido! Resultado: %d. Valor esperado: %d", total, 15)
 	}
 }
+
+func TestTimes(t *testing.T) {
+	total := Times(5, 5)
+
+	if total != 25 {
+		t.Errorf("Resultado da sub é inválido! Resultado: %d. Valor esperado: %d", total, 25)
+	}
+}
+
+func TestDivides(t *testing.T) {
+	total := Divide(10, 2)
+
+	if total != 5 {
+		t.Errorf("Resultado da sub é inválido! Resultado: %d. Valor esperado: %d", total, 5)
+	}
+}

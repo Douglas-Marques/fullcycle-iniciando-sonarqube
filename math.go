@@ -21,7 +21,3 @@ func Times(a int, b int) int {
 func Divide(a int, b int) int {
 	return a / b
 }
-
-func Power(a int, b int) int {
-	return a ^ b
-}
